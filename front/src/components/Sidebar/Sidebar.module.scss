@@ -41,3 +41,37 @@
   background-color: #2f3135;
   color: #808080;
 };
+
+.voice, .profile {
+  display: flex;
+  align-items: space-between;
+  align-items: center;
+  color: #808080;
+  background-color: #2f3135;
+  padding: 10px;
+  border-top: 1px solid #808080;
+};
+
+.voiceIcon {
+  align-items: center;
+  color: #4fb185;
+};
+
+.voiceInfo {
+  flex: 1;
+  padding: 10px;
+};
+
+.voiceInfo > h3 {
+  flex: 1;
+  padding: 10px;
+};
+
+.voiceInfo > p {
+  font-size: smaller;
+};
+
+.voiceIcons > .MuiSvgIcon-root {
+  padding: 10px;
+};
+

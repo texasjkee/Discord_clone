@@ -1,11 +1,11 @@
 import Chat from '../components/Chat/Chat';
 import Sidebar from '../components/Sidebar/Sidebar';
 
-import style from './App.module.css';
+import style from './App.module.scss';
 
 const App = () => {
   return (
-    <div className="App">
+    <div className={style.App}>
       <Sidebar/>
       <Chat/>
     </div>
